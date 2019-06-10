@@ -1,0 +1,115 @@
+[Root]
+Most Recent Package=方解石标准安装软件包
+
+
+[Package|方解石标准安装软件包|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\share\CalciteM\包
+
+[Package|方解石标准安装软件包|Configure DAO ISAMs]
+Applicable=No
+
+[Package|方解石标准安装软件包|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|方解石标准安装软件包|Files Found]
+
+[Package|方解石标准安装软件包|Files Released]
+
+[Package|方解石标准安装软件包|Missing Dependency Information]
+
+[Package|方解石标准安装软件包|Out-of-Date Dependency Information]
+
+[Package|方解石标准安装软件包|Files Added]
+d:\share\calcitem\readme.md=
+d:\share\calcitem\expr.jpg=
+d:\share\calcitem\readme.html=
+
+[Package|方解石标准安装软件包|Files Removed]
+d:\share\calcitem\readme.md=
+
+[Package|方解石标准安装软件包|Files In Project]
+D:\share\CalciteM\CalciteM.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\VB6CHS.DLL=Yes
+C:\Windows\SysWOW64\mscomctl.OCX=Yes
+C:\Windows\SysWOW64\MSCMCCHS.DLL=Yes
+C:\Windows\SysWOW64\ComDlg32.OCX=Yes
+C:\Windows\SysWOW64\CMDLGCHS.DLL=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\share\CalciteM\README.md=No
+D:\share\CalciteM\expr.jpg=Yes
+D:\share\CalciteM\README.html=Yes
+
+[Package|方解石标准安装软件包|Configure Registry Files]
+Applicable=No
+
+[Package|方解石标准安装软件包|Configure Remote Servers]
+Applicable=No
+
+[Package|方解石标准安装软件包|Install Locations]
+D:\share\CalciteM\CalciteM.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB6CHS.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\mscomctl.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSCMCCHS.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\ComDlg32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\CMDLGCHS.DLL=$(WinSysPath)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\share\CalciteM\README.md=$(AppPath)
+D:\share\CalciteM\expr.jpg=$(AppPath)
+D:\share\CalciteM\README.html=$(AppPath)
+
+[Package|方解石标准安装软件包|Configure Shared Files]
+Applicable=Yes
+D:\share\CalciteM\CalciteM.exe=No
+D:\share\CalciteM\README.md=No
+D:\share\CalciteM\expr.jpg=No
+D:\share\CalciteM\README.html=No
+
+[Package|方解石标准安装软件包|Distribution]
+Type=single
+Size=
+Title=方解石数学工具包
+
+[Package|方解石标准安装软件包|Package]
+PackageFolder=D:\share\CalciteM\包
+ProjectFolder=D:\share\CalciteM
+ServerSideCab=
+File1=D:\share\CalciteM\包\setup.exe
+File2=D:\share\CalciteM\包\Setup.Lst
+File3=D:\share\CalciteM\包\CalciteM.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|方解石标准安装软件包|IconGroups]
+Group0=方解石数学工具包
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|方解石标准安装软件包|方解石数学工具包]
+Icon1=CalciteM.exe
+Title1=方解石
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=README.html
+Title2=使用指南
+StartIn2=$(AppPath)
+Key2=Icon4
